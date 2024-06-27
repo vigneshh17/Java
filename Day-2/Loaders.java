@@ -5,6 +5,6 @@ class Loaders {
 
     public void run() {}
     public static void main(String args[]) {
-      System.out.println(Loaders.class.getm);
+      //System.out.println(Loaders.class.getm);
     }
 }
