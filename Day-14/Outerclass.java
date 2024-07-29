@@ -1,4 +1,4 @@
-class Outerclass extends OuterAbstract{
+class Outerclass extends OuterClass1 {
     public Outerclass(){
     System.out.println("constructor of outerclass");
     }
