@@ -1,11 +1,9 @@
-import java.io.Serializable;
-
 class B implements Cloneable {
 
     public static void main(String[] args) throws CloneNotSupportedException {
-        B b=new B();
+        E b=new E();
         System.out.println(b);
-        B b1 = (B)b.clone();
+        E b1 = (E)b.clone();
         System.out.println(b1);
 
     }
