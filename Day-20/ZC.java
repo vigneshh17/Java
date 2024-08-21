@@ -1,2 +1,2 @@
-public class ZC extends P {
+public class ZC extends I {
 }
