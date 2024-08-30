@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class List {
+public class List1 {
     public static void main(String[] args) {
         ArrayList<String> a = new ArrayList<>();
         a.add("vignesh");
