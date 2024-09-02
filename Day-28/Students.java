@@ -11,13 +11,7 @@ public class Students implements  Comparable<Students>{
     @Override
     public int compareTo(Students o) {
         System.out.println("---" + this.name + "---" + o.name + "---" + (this.age - o.age));
-        if(this.age > o.age) {
-            return 1;
-        } else if (this.age < o.age) {
-            return -1;
-        } else {
-            return 0;
-        }
+        return (o.name.compareTo(this.name));
     }
     public String toString(){
     return this.name+ " "+ this.rollno+" "+this.age;

@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Main2 {
     public static void main(String[] args) {
-    Students st1=new Students("hari",21,19);
+    Students st1=new Students("Hari",21,19);
         Students st2=new Students("Abi",23,16);
         Students st3=new Students("Sandy",25,17);
         Students st4=new Students("Puna",29,12);
-        Students st5=new Students("bala",27,16);
+        Students st5=new Students("Bala",27,16);
         List<Students> q= new ArrayList<>();
         q.add(st1);
         q.add(st2);
