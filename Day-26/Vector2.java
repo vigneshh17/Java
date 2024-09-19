@@ -15,7 +15,7 @@ public class Vector2 {
 
         ArrayList<String> lis = new ArrayList<>();
         long listStartingTime = new Date().getTime();
-        for(int i =0; i< 10000000; i++) {
+        for(int i =0; i< 100000; i++) {
            lis.add(" test "+ i);
         }
         System.out.println(new Date().getTime() - listStartingTime);
